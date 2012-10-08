@@ -95,7 +95,7 @@ def download_album( album_url, folder ):
 
     total = scraper.data['count']
 
-    for ( pos, img_url ) in enumerate( scraper.img_urls() ):
+    for ( pos, img_url ) in enumerate( scraper.img_urls(), 1 ):
 
         print( "downloading {img_url} ({pos} of {total})".format( 
             img_url = img_url,
