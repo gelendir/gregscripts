@@ -6,8 +6,7 @@ IMGur album downloader.
 
 Hacked together by Gregory Eric Sanderson Turcot Temlett MacDonnell Forbes
 
-This script is python 3 compatible
-(actually to work on python2 you need to change the imports)
+This script requires python 3
 
 Yet again, another small script I made when I needed to do something
 but was too lazy to do it by hand.
